@@ -5,7 +5,7 @@ setting up firebase
 
 	initialize firebase with:  firebase.initializeApp(config);   
 
-	
+
 
 
 
@@ -17,3 +17,10 @@ put in new emp info
 	submit
 		store info to firebase under the correct "names"
 
+
+
+
+
+
+
+------
