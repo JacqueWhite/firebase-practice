@@ -2,11 +2,20 @@
 <html>
 <head>
 	<title>Employee Data Management</title>
+<!-- linking Bootstrap-->
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!-- linking jQuery-->
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<!-- linking Firebase-->	
+	<script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+<!-- linking our CSS-->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+
 </head>
 <body>
-<div class="container">
+<div class="container"> <!-- the main container -->
+
 	<div class="jumbotron jumbotron-fluid">
   		<div class="container">
     		<h1 class="display-3">Employee Data Management</h1>
@@ -28,19 +37,19 @@
 		<form>
 	  		<div class="form-group">
 		    	<label for="formGroupExampleInput">Employee Name</label>
-		    	<input type="text" class="form-control" id="new-emp-name" placeholder="John Doe">
+		    	<input type="text" class="form-control" id="new-emp-name" placeholder="new-emp-name">
 	  		</div>
 	  		<div class="form-group">
-			    <label for="formGroupExampleInput2">Role</label>
-			    <input type="text" class="form-control" id="new-emp-role" placeholder="Account Director">
+			    <label for="new-emp-date">Role</label>
+			    <input type="text" class="form-control" id="new-emp-role" placeholder="new-emp-role">
 	  		</div>
 	  		<div class="form-group">
-			    <label for="formGroupExampleInput2">Start Date (DD/MM/YY)</label>
-			    <input type="text" class="form-control" id="new-emp-date" placeholder="01/01/17">
+			    <label for="new-emp-date">Start Date (DD/MM/YY)</label>
+			    <input type="text" class="form-control" id="new-emp-date" placeholder="new-emp-date">
 	  		</div>
 	  		<div class="form-group">
-			    <label for="formGroupExampleInput2">Monthly Rate</label>
-			    <input type="text" class="form-control" id="new-emp-rate" placeholder="4,000">
+			    <label for="new-emp-rate">Monthly Rate</label>
+			    <input type="text" class="form-control" id="new-emp-rate" placeholder="new-emp-rate">
 	  		</div>
 			
 			<input type="button" value="Submit" id="submit-button">
@@ -53,7 +62,7 @@
 
 </div> <!-- end of main container -->
 
-
+<!-- linking our javascript-->
 <script type="text/javascript" scc="assets/javascript/javascript.js"></script>
 </body>
 </html>
