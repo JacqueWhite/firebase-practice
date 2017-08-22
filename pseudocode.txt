@@ -1,0 +1,19 @@
+
+setting up firebase
+	add the link in HTML
+	add the "key" into the top of your js file
+
+	initialize firebase with:  firebase.initializeApp(config);   
+
+	
+
+
+
+
+
+
+----ACTUALLY USING THE APP----
+put in new emp info
+	submit
+		store info to firebase under the correct "names"
+
