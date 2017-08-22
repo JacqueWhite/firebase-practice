@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Employee Data Management</title>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="container">
+	<div class="jumbotron jumbotron-fluid">
+  		<div class="container">
+    		<h1 class="display-3">Employee Data Management</h1>
+    		<p class="lead">Comprehensive Directory of Emplyee Billable Hours</p>
+ 	 	</div>
+	</div>
+
+<div class="panel panel-default">
+	<div class="panel-heading" id="current-employee-display">Current Employee</div>
+ 		<div class="panel-body" id="current-employee-info">
+ 		</div>
+</div>
+
+
+<div class="panel panel-default">
+	<div class="panel-heading" id="new-employee">Add Employee
+	</div>
+ 	<div class="panel-body" id="new-employee-info">
+		<form>
+	  		<div class="form-group">
+		    	<label for="formGroupExampleInput">Employee Name</label>
+		    	<input type="text" class="form-control" id="new-emp-name" placeholder="John Doe">
+	  		</div>
+	  		<div class="form-group">
+			    <label for="formGroupExampleInput2">Role</label>
+			    <input type="text" class="form-control" id="new-emp-role" placeholder="Account Director">
+	  		</div>
+	  		<div class="form-group">
+			    <label for="formGroupExampleInput2">Start Date (DD/MM/YY)</label>
+			    <input type="text" class="form-control" id="new-emp-date" placeholder="01/01/17">
+	  		</div>
+	  		<div class="form-group">
+			    <label for="formGroupExampleInput2">Monthly Rate</label>
+			    <input type="text" class="form-control" id="new-emp-rate" placeholder="4,000">
+	  		</div>
+			
+			<input type="button" value="Submit" id="submit-button">
+
+		</form>	  
+	</div> 
+
+</div> <!-- end of add employee box -->
+
+
+</div> <!-- end of main container -->
+
+
+<script type="text/javascript" scc="assets/javascript/javascript.js"></script>
+</body>
+</html>
